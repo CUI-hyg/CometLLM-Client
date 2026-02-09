@@ -1,6 +1,9 @@
-# Comet LLM Client
+![Logo](https://avatars.githubusercontent.com/u/184814437?v=4&size=64 "CometLLM-Client")
+<center>
+# Comet LLM Client V0.0.5-Alpha
+</center>
 
-高性能LLM客户端，聚合OpenAI和Anthropic API，提供统一接口和优化性能。
+高性能LLM客户端，聚合OpenAI和Anthropic API，提供统一接口和优化性能，使得开发者无需单独适配服务商，尽可能提高效率
 
 ## 特性
 
@@ -12,6 +15,7 @@
 - 🔒 Pydantic数据验证
 - 🛠️ 工具调用支持
 - 📡 流式响应支持
+- ✨ 优化的接口，无需手动适配每个服务商
 
 ## 安装
 
@@ -184,13 +188,6 @@ CometLLM/
     ├── __init__.py
     ├── openai.py        # OpenAI实现
     └── anthropic.py     # Anthropic实现
-tests/                   # 测试文件
-```
-
-## 运行测试
-
-```bash
-python -m pytest tests/ -v
 ```
 
 ## 许可证
