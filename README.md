@@ -2,7 +2,7 @@
     <img src="https://avatars.githubusercontent.com/u/184814437?v=4&size=60">
 </div>
 <div align='center'> 
-    <font size="120"> Comet LLM Client V0.0.5-Alpha </font>
+    <p1> Comet LLM Client V0.0.5-Alpha </p1>
 </div>
 
 高性能LLM客户端，聚合OpenAI和Anthropic API，提供统一接口和优化性能，使得开发者无需单独适配服务商，尽可能提高效率
